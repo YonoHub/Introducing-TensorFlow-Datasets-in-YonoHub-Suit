@@ -1,0 +1,9 @@
+[submodule "Image-Classification-TFDS-Player"]
+	path = Image-Classification-TFDS-Player
+	url = https://github.com/YonoHub/Image-Classification-TFDS-Player.git
+[submodule "OpenCV-Resize"]
+	path = OpenCV-Resize
+	url = https://github.com/YonoHub/OpenCV-Resize.git
+[submodule "OpenCV-Draw-Label"]
+	path = OpenCV-Draw-Label
+	url = https://github.com/YonoHub/OpenCV-Draw-Label.git
