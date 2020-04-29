@@ -38,7 +38,7 @@ After purchasing, let’s create a pipeline!
 
 In the next clip, we demonstrate how to create a pipeline and launch it. This pipeline aims to investigate the usage of the Image Classification TFDS Player by visualization various numbers of datasets for image classification.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/-yspgvzk1Y8" frameborder="0" allowfullscreen></iframe></center>
+[![]()](https://youtu.be/-yspgvzk1Y8)
 
 The clip shows the advantage of using YonoArc for datasets streaming. We visualized different datasets like beans and cifar10. Furthermore, the frame rate of the streaming has been changed in live mode. You do not need to terminate the full pipeline for that. But can we do more?
 
@@ -46,7 +46,7 @@ The clip shows the advantage of using YonoArc for datasets streaming. We visuali
 
 We need to interact with raw images as well as the labels by doing some preprocessing to prepare the training process for such a dataset. In the next clip, we illustrate how to create a custom block to simply resize the streamed images using *cv2.resize* function in python. Moreover, we draw the streamed labels on top of the resized image using the OpenCV Draw Label block we purchased early.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/XQAEguGxWrk" frameborder="0" allowfullscreen></iframe></center>
+[![]()](https://youtu.be/XQAEguGxWrk)
 
 Now you implement a full pipeline that streams, preprocesses, annotates, and visualizes the beans dataset. You implement a custom block to resize images.
 
