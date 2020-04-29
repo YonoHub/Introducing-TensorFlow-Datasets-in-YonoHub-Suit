@@ -38,7 +38,7 @@ After purchasing, let’s create a pipeline!
 
 In the next clip, we demonstrate how to create a pipeline and launch it. This pipeline aims to investigate the usage of the Image Classification TFDS Player by visualization various numbers of datasets for image classification.
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/yspgvzk1Y8/0.jpg)](https://www.youtube.com/watch?v=-yspgvzk1Y8&t=6s)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/-yspgvzk1Y8/0.jpg)](https://www.youtube.com/watch?v=-yspgvzk1Y8&t=6s)
 
 The clip shows the advantage of using YonoArc for datasets streaming. We visualized different datasets like beans and cifar10. Furthermore, the frame rate of the streaming has been changed in live mode. You do not need to terminate the full pipeline for that. But can we do more?
 
