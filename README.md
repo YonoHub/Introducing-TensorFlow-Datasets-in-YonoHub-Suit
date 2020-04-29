@@ -1,7 +1,7 @@
 
 # Part 1: Introducing TensorFlow Datasets in YonoHub Suit — Image Classification with YonoHub &…
 
-
+![Cover](https://miro.medium.com/max/700/1*LXoagPOK5PvBzt_ni_8d-A.jpeg)
 
 Over the past few years, researchers struggled to find suitable datasets that fit well in their applications. Recently, we were hit by a data storm which enriches our pockets with plenty of datasets which make the job done. However, such a storm has a double-sided effect as we consume a painful time writing different scripts to extract and manipulate these data.
 
@@ -38,7 +38,7 @@ After purchasing, let’s create a pipeline!
 
 In the next clip, we demonstrate how to create a pipeline and launch it. This pipeline aims to investigate the usage of the Image Classification TFDS Player by visualization various numbers of datasets for image classification.
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/-yspgvzk1Y8/0.jpg)](https://www.youtube.com/watch?v=-yspgvzk1Y8&t=6s)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/-yspgvzk1Y8/0.jpg)](https://www.youtube.com/watch?v=-yspgvzk1Y8)
 
 The clip shows the advantage of using YonoArc for datasets streaming. We visualized different datasets like beans and cifar10. Furthermore, the frame rate of the streaming has been changed in live mode. You do not need to terminate the full pipeline for that. But can we do more?
 
@@ -46,8 +46,7 @@ The clip shows the advantage of using YonoArc for datasets streaming. We visuali
 
 We need to interact with raw images as well as the labels by doing some preprocessing to prepare the training process for such a dataset. In the next clip, we illustrate how to create a custom block to simply resize the streamed images using *cv2.resize* function in python. Moreover, we draw the streamed labels on top of the resized image using the OpenCV Draw Label block we purchased early.
 
-[![]()](https://youtu.be/XQAEguGxWrk)
-
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/XQAEguGxWrk/0.jpg)](https://www.youtube.com/watch?v=XQAEguGxWrk)
 Now you implement a full pipeline that streams, preprocesses, annotates, and visualizes the beans dataset. You implement a custom block to resize images.
 
 To learn more about creating blocks in YonoArc, check the [docs](https://docs.yonohub.com/docs/yonohub/yonoarc/creating-yonoarc-blocks/). You can check the article’s pipeline as well as the source codes for all the blocks used in this [repository](https://github.com/YonoHub/Introducing-TensorFlow-Datasets-in-YonoHub-Suit.git). Furthermore, you can purchase the [OpenCV Resize](https://store.yonohub.com/product/resize/) block from YonoStore, it contains the same functionality as the one you implemented but with more features.
