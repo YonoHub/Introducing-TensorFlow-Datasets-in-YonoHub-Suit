@@ -66,11 +66,13 @@ Finally, you are ready to use the pipeline for training. In the next article, we
 [4] [https://docs.yonohub.com](https://docs.yonohub.com/)
 
 
+## How to Use the arc file?
 
+You can follow the following steps to use the arc file of the demo directly in YonoArc and achieve the same results,
+- Freely purchase all the required blocks from YonoStore. 
+- Clone the repository and upload the arc file to your YonoDrive. 
+- Click on the YonoArc application.
+- Click File, then Open....
+- Browse to the location of the saved arc file and select it.
 
-
-
-
-
-
-
+Now you have the same pipeline above, you can follow the rest of the tutorial to replicate the results.
